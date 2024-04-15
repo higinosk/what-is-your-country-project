@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font: normal 20px Montserrat;
+  /* Cria um gradiente linear que segue uma diagonal */
+  background-image: linear-gradient(
+    to bottom right,
+    #88fdd0,
+    #3ec5c8,
+    #9f6ff9,
+    #8a31ff
+  );
+  background-size: 100% 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+header {
+  padding: 20px;
+  margin-top: 20px;
+}
+main {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.1); /* Cor de fundo da caixa */
+  padding: 20px; /* Espaçamento interno da caixa */
+  margin: 30px 200px;
+  border-radius: 10px; /* Raio da borda da caixa */
+  border: 2px solid rgba(255, 255, 255, 0.158);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.295);
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#verificarBtn {
+    background-color: rgba(255, 255, 255, 0.295);
+  color: #ffffff; /* Defina a cor do texto conforme necessário */
+  border: 2px solid #ffffff; /* Opcional: defina uma borda */
+  border-radius: 10px;
+  padding: 10px 20px; /* Opcional: ajuste o preenchimento conforme necessário */
+  font-size: 16px; /* Opcional: ajuste o tamanho da fonte conforme necessário */
+  margin-top: 20px;
+}
+
+/* Opcional: Estilos ao passar o mouse sobre o botão */
+#verificarBtn:hover {
+  background-color: rgba(255, 255, 255, 0.541);
+}
+
+#res {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+  font-size: 16px;
+  padding: 20px;
+}
