@@ -10,7 +10,7 @@ Qual é o seu país? is a mini project using JavaScript.
 
 Where it tells whether you are a foreigner or a Brazilian.
 
-##Features
+## Features
 
 * User can input their country name.
 * User receives feedback on whether they are a foreigner or a Brazilian based on their input.
