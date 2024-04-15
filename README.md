@@ -27,8 +27,8 @@ You can clone the project and open it in localhost, or enjoy the preview video b
 
 ## How to Run the Project
 * Fork the project.
-* Clone the repository to your local machine: git clone https://github.com/higinosk/cycle-mate-sign-in.
-* Navigate to the project directory: cd cycle-mate-sign-in.
+* Clone the repository to your local machine: git clone https://github.com/higinosk/what-is-your-country-project.
+* Navigate to the project directory: cd what-is-your-country-project.
 * Open the index.html file in your preferred web browser.
 
 ## Contributors
